@@ -8,7 +8,7 @@ relevant branches
 
 > master
 
-sbt 0.13.0-SNAPSHOT, and improving.
+compiled for scala 2.9.1
 
 > sbt-0.7.7
 

@@ -18,7 +18,7 @@ object ScctPlugin extends Plugin {
       ivyConfigurations ++= Seq(Scct, ScctTest),
 
       // Assuming you have the repo, since you have this plugin:
-      // resolvers += "scct-repository" at "http://mtkopone.github.com/scct/maven-repo",
+      resolvers += "scct-repository" at "http://mtkopone.github.com/scct/maven-repo",
 
       libraryDependencies += "reaktor" %% "scct" % "0.2-SNAPSHOT" % "scct",
 
